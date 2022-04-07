@@ -1,0 +1,154 @@
+
+/* Start @media 1200 to .... */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .feedback .box {
+        width: 60%;
+    }
+    .contact form {
+        width: 60%;
+    }
+    .portfolio .box:nth-child(2),
+    .portfolio .box:nth-child(5){
+        margin: 20px 2%;
+    }
+}
+/* End @media 1200 to .... */
+
+/* Start @media 992 to 1199 */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+    .feedback .box {
+        width: 650px;
+    }
+    .contact form {
+        width: 650px;
+    }
+}
+/* End @media 992 to 1199 */
+
+/* Start @media 768 to 991 */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .about .box .image {
+        width: 90%;
+        margin-left: 0%;
+        box-shadow: none;
+    }
+    .about .box .image .inner {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+}
+    .about .text {
+        padding-top: 0;
+    }
+    .services .container .box {
+        width: 50%;
+    }
+    .portfolio .box {
+        width: 48%;
+    }
+    .portfolio .box:nth-child(odd) {
+        margin-right: 4%;
+    }
+    .Statistic .container .box {
+        width: 50%;
+    }
+    .feedback .box {
+        width: 90%;
+    }
+    .contact form {
+        width: 90%;
+    }
+}
+/* End @media 768 to 991 */
+
+/* Start @media 0 to 767 */
+@media (max-width: 767px) {
+    .container {
+        width: 450px;
+        max-width: 95%;
+    }
+    header .home-nav ul {
+        position: absolute;
+        top: 100%;
+        left: -25%;
+        background-color: #333333;
+        width: 150%;
+        display: none;
+        z-index: 50;
+    }
+    header .home-nav ul li {
+        display: block;
+    }
+    header .home-nav ul li a {
+        width: 100%;
+        text-align: center;
+    }
+    header .home-nav i {
+        display: block;
+    }
+    header .home-nav #checked:checked ~ ul{
+        display: block;
+    }
+    .about .box {
+        width: 100%;
+    }
+    .about .box .image {
+        width: 100%;
+        margin-left: 0%;
+        box-shadow: none;
+        margin: auto;
+    }
+    .about .box .image .inner {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+    }
+    .about .text {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .about .text ul li {
+        width: 100%;
+    }
+    .services .container .box {
+        width: 100%;
+    }
+    .portfolio .container .box {
+        width: 100%;
+    }
+    .portfolio a {
+        padding: 5px;
+    }
+    .Statistic .container .box {
+        width: 100%;
+    }
+    .feedback .box {
+        width: 100%;
+    }
+    .blog .container .box:nth-child(2) {
+        margin: 0;
+    }
+    .blog .container .box {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .contact form input[name=name],
+    .contact form input[name=email] {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+/* End @media 0 to 767 */
